@@ -23,10 +23,18 @@ body{
     margin-top: -150px;
     margin-right: 100px;
 }
-script{
-    
-    padding: 80px;
-    padding-left: 50%;
-    
-}
-
+.p5Canvas{
+    width: Xu;
+    height: Yu;
+    position: absolute;
+    top: 20%;
+    left: 22%;
+    margin-left: -(X/2)u;
+    margin-top: -(Y/2)u;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    /* min-height: 100vh; */
+  }
