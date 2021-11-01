@@ -97,7 +97,22 @@ function draw() {
 
   fill(255, 0, 255);
   noStroke();
-  textSize(512);
+  textSize(100);
   textAlign(CENTER, CENTER);
-  text(poseLabel, width / 2, height / 2);
+  let asana;
+  if(poseLabel == 'A'){
+    asana = 'tadasana';
+  }
+  else if(poseLabel == 'B'){
+    asana = 'padmasana';
+  }
+  else if(poseLabel == 'C'){
+    asana = 'padmasana';
+  }
+  else if(poseLabel == 'D'){
+    asana = 'virbhadrasana';
+  }
+
+  
+  text(asana, width / 2.3, height /6);
 }
