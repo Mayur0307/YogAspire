@@ -1,16 +1,17 @@
 var fireBase = fireBase || firebase;
 var hasInit = false;
 var config = {
-    apiKey: "AIzaSyAq5EuwGXS1vRpD8vdmvTQnRWHT3r8nIpA",
-    authDomain: "aimhelper-8510a.firebaseapp.com",
-    databaseURL: "https://aimhelper-8510a.firebaseio.com",
-    projectId: "aimhelper-8510a",
-    storageBucket: "aimhelper-8510a.appspot.com",
-    messagingSenderId: "43997639659"
+    apiKey: "AIzaSyCvhIPeRcsj_OCr6rUIs3OckE4zi3M2rYU",
+    authDomain: "yogaspire-60fc9.firebaseapp.com",
+    databaseURL: "https://yogaspire-60fc9.firebaseio.com",
+    projectId: "yogaspire-60fc9",
+    storageBucket: "yogaspire-60fc9.appspot.com",
+    messagingSenderId: "512885104040"
   };
 if(!hasInit){
     firebase.initializeApp(config);
     hasInit = true;
 }
+
 
 
